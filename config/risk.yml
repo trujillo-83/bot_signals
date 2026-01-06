@@ -1,0 +1,10 @@
+risk_pct:
+  min: 0.003
+  max: 0.007
+
+atr_multipliers:
+  sl: 1.2
+  tp: 2.0
+
+notes:
+  - "Episode 1: risk config exists but dummy signals will keep SL/TP as null."

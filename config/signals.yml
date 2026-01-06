@@ -1,0 +1,19 @@
+rule_version: "dummy_v1"
+timeframe: "1d"
+
+indicators:
+  ema:
+    fast: 12
+    slow: 26
+  rsi:
+    length: 14
+    buy_level: 35
+    sell_level: 65
+  atr:
+    length: 14
+
+threshold:
+  action_min_confidence: 60
+
+output:
+  standard_keys: ["action", "confidence", "sl", "tp", "reason", "debug"]
